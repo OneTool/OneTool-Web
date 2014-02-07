@@ -1,0 +1,12 @@
+<div>[% INCLUDE 'wiki/breadcrumb.tt' %]</div>
+[% INCLUDE 'wiki/page_show_action_bar.tt' %]
+[% html %]
+<hr>
+<!--[% use Wiki.Server %]
+[% FOREACH w IN Wiki.Server.Configurations %]
+    [% w.key %]: [% w.value.ip %] [% w.value.port %]
+[% END %]-->
+<div>[% INCLUDE 'wiki/authors.tt' %]</div>
+<div>[% INCLUDE 'wiki/tags_show.tt' %]</div>
+[% INCLUDE 'wiki/page_show_action_bar.tt' %]
+<div>[% INCLUDE 'wiki/breadcrumb.tt' %]</div>

@@ -1,0 +1,4 @@
+<i class="fa fa-tags"></i>
+[% FOREACH tag IN tags %]
+    <span class="label label-info">[% tag %]</span> 
+[% END %]

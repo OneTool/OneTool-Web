@@ -1,0 +1,7 @@
+<hr>
+<div align="center">
+<a class="btn btn-default" href="/wiki/page/revisions/[% page %]"><i class="fa fa-eye"></i> Show revisions</a>
+<a class="btn btn-default" href="/wiki/page/remove/[% page %]"><i class="fa fa-trash-o"></i> Remove this page</a>
+<a class="btn btn-default" href="/wiki/page/edit/[% page %]"><i class="fa fa-edit"></i> Edit this page</a>
+</div>
+<hr>

@@ -1,0 +1,26 @@
+[% USE Wiki.Server %]
+<table class="table table-bordered table-condensed table-hover table-stripped">
+<thead>
+<tr>
+    <th>[% loc("_NAME") %]</th>
+    <th>[% loc("_DESCRIPTION") %]</th>
+    <th>[% loc("_URL") %]</th>
+    <th>[% loc("_ROUTE") %]</th>
+    <th>[% loc("_ACTION") %]</th>
+</tr>
+</thead>
+<tbody>
+[% FOREACH server IN Wiki.Server.Configurations %]
+<tr>
+    <td><b>[% server.key %]</b></td>
+    <td><i>[% server.value.description %]</i></td>
+    <td>http://[% server.value.ip %]:[% server.value.port %]</td>
+    <td></td>
+    <td align="center">
+    <a href="/wiki/admin/servers"><i class="fa fa-edit"></i> </a>
+    <a href="/wiki/admin/servers"><i class="fa fa-trash-o"></i> </a>
+    </td>
+</tr>
+[% END %]
+</tbody>
+</table>

@@ -1,0 +1,5 @@
+<ul class="breadcrumb">
+[% FOREACH item IN page.split('::') %]
+    <li><span class="divider">/</span><a href="/Wiki/page/show/[% item %]">[% item %]</a></li>
+[% END %]
+</ul>

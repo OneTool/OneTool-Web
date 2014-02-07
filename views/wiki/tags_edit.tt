@@ -1,0 +1,2 @@
+<i class="fa fa-tags"></i>
+<input type="text" name="tags" placeholder="Enter tags separated by ','" value="[% tags.join(', ') %]" />

@@ -1,0 +1,14 @@
+<div>[% INCLUDE 'wiki/breadcrumb.tt' %]</div>
+<form method="post" action="/wiki/page/save">
+[% INCLUDE 'wiki/page_edit_action_bar.tt' %]
+<input type="hidden" name="page" value="[% page %]">
+<div align="center"><textarea name="text" rows="25" cols="80">
+[% text %]
+</textarea>
+</div>
+<hr>
+<div>[% INCLUDE 'wiki/authors.tt' %]</div>
+<div>[% INCLUDE 'wiki/tags_edit.tt' %]</div>
+[% INCLUDE 'wiki/page_edit_action_bar.tt' %]
+</form>
+<div>[% INCLUDE 'wiki/breadcrumb.tt' %]</div>
