@@ -3,7 +3,7 @@
 # all the settings in this file will be loaded at Dancer's startup.
 
 # Your application's name
-appname: "ITTool"
+appname: "OneTool"
 
 # The default layout to use for your application (located in
 # views/layouts/page.tt)
@@ -16,6 +16,6 @@ charset: "UTF-8"
 
 engines:
    template_toolkit:
-      PLUGIN_BASE: 'ITTool::Web::Template::Plugin'
+      PLUGIN_BASE: 'OneTool::Web::Template::Plugin'
       start_tag: '[%'
       stop_tag: '%]' 

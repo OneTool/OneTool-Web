@@ -6,6 +6,9 @@ OneTool::Web - OneTool Web Console module
 
 package OneTool::Web;
 
+use strict;
+use warnings;
+
 use Dancer ':syntax';
 
 1;

@@ -19,7 +19,9 @@ use OneTool::Configuration;
 
 =head1 SUBROUTINES/METHODS
 
-=head2 new()
+=head2 new($class, $context, $params)
+
+Creates OneTool Wiki Server Template plugin
 
 =cut
 
